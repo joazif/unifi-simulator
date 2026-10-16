@@ -1,4 +1,11 @@
-# MikroTik UniFi Switch Emulator — experimental M0–M5
+# UniFi Simulator for MikroTik RouterOS
+
+Shows MikroTik RouterOS devices in UniFi Network as native UniFi switches: ports,
+clients, LLDP topology, LACP and PoE. Read-only RouterOS API, nothing is written to
+the router. Fork of [MartinDejmal/unifi-simulator](https://github.com/MartinDejmal/unifi-simulator)
+(MIT); quick start for RB5009 / mAP lite: [guide](docs/mikrotik-routeros-switches.md).
+
+## Original project: MikroTik UniFi Switch Emulator — experimental M0–M5
 
 The goal is a Docker service that makes RouterOS 7 switches visible in UniFi Network
 through the **device-side inform protocol**, with observed ports, wired clients
